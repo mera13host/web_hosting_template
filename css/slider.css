@@ -1,0 +1,191 @@
+img.bg-img {
+  background-position: center center;
+  background-size: cover;
+  min-height: 653px;
+  width: 100%;
+}
+
+.overlay {
+    background: #000 none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.item {
+    position: relative;
+}
+.posi-abs{ 
+    position:absolute;
+    z-index: -1;
+}
+.item .carousel-caption {
+  text-align: center;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+/*Resturent Carousel style start*/
+
+.carousel-inner .item .carousel-caption{ 
+    display:none;
+}
+.carousel-inner .item.active .carousel-caption{ 
+    display:block
+}
+/*slider one style*/
+.left-text {
+  margin-left: 20%;
+  text-align: left;
+}
+.right-text {
+  margin-right: 20%;
+  text-align: right;
+}
+h1.brand {
+  color: #f48120;
+}
+.cap-text {
+  margin-top: 5%;
+}
+.mob1 {
+  left: 3%;
+  top: 3%;
+}
+.mob1 img {
+    width: 90%;
+}
+.mob2 {
+  right: 6%;
+  top: 1%;
+}
+.mob2 img {
+    width: 90%;
+}
+
+.carousel-inner .item.active .carousel-caption .mob1 {
+    -webkit-animation: bounceInDown 500ms ease-in-out;
+    animation: bounceInDown 500ms ease-in-out;
+}
+.carousel-inner .item.active .carousel-caption .mob2 {
+    -webkit-animation: bounceInDown 1000ms ease-in-out;
+    animation: bounceInDown 1000ms ease-in-out;
+}
+.carousel-inner .item.active .carousel-caption .brand {
+    -webkit-animation: fadeIn 1500ms ease-in-out;
+    animation: fadeIn 1500ms ease-in-out;
+}
+.carousel-inner .item.active .carousel-caption .mf1 {
+    -webkit-animation: fadeInUpBig 2000ms ease-in-out;
+    animation: fadeInUpBig 2000ms ease-in-out;
+}
+.carousel-inner .item.active .carousel-caption .mf2 {
+    -webkit-animation: fadeInUpBig 2500ms ease-in-out;
+    animation: fadeInUpBig 2500ms ease-in-out;
+}
+.carousel-inner .item.active .carousel-caption .mf3 {
+    -webkit-animation: fadeInUpBig 3000ms ease-in-out;
+    animation: fadeInUpBig 3000ms ease-in-out;
+}
+.carousel-inner .item.active .carousel-caption .mf4 {
+    -webkit-animation: fadeInUpBig 3300ms ease-in-out;
+    animation: fadeInUpBig 3300ms ease-in-out;
+}
+.carousel-inner .item.active .carousel-caption .mf5 {
+    -webkit-animation: fadeInUpBig 3600ms ease-in-out;
+    animation: fadeInUpBig 3600ms ease-in-out;
+}
+.carousel-inner .item.active .carousel-caption .mf6 {
+    -webkit-animation: fadeInUpBig 4000ms ease-in-out;
+    animation: fadeInUpBig 4000ms ease-in-out;
+}
+.carousel-inner .item.active .carousel-caption .mf7 {
+    -webkit-animation: fadeInUpBig 4400ms ease-in-out;
+    animation: fadeInUpBig 4400ms ease-in-out;
+}
+.carousel-inner .item.active .carousel-caption .mf7 {
+    -webkit-animation: fadeInUpBig 5000ms ease-in-out;
+    animation: fadeInUpBig 5000ms ease-in-out;
+}
+
+.carousel-inner .item.active .carousel-caption .mf8 {
+    -webkit-animation: fadeInUpBig 4200ms ease-in-out;
+    animation: fadeInUpBig 4200ms ease-in-out;
+}
+
+/*slide style three*/
+.mob4 {
+    left: 36%;
+    top: 16%;
+}
+.mob4 img {
+    width: 50%;
+}
+.mob3 {
+    left: 10%;
+    top: 5%;
+}
+.mob3 img {
+    width: 80%;
+}
+.carousel-inner .item.active .carousel-caption .mob3 {
+    -webkit-animation: zoomInLeft 1000ms ease-in-out;
+    animation: zoomInLeft 1000ms ease-in-out;
+}
+.carousel-inner .item.active .carousel-caption .mob4 {
+    -webkit-animation: zoomIn 2000ms ease-in-out;
+    animation: zoomIn 2000ms ease-in-out;
+}
+.cap-text i{font-size:20px;}
+.carousel-control{width:50px;}
+
+
+/*Slider responsive code*/
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.mob1 {
+  left: -5%;
+  top: 23%;
+}
+.mob1 img {
+  width: 60%;
+}
+.mob2 {
+  right: 0;
+  top: 23%;
+}
+.mob2 img {
+  width: 60%;
+}
+   
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+.mob1 {
+  left: -20%;
+  top: 23%;
+}
+.mob1 img {
+  width: 40%;
+}
+.mob2 {
+  right: -12%;
+  top: 23%;
+}
+.mob2 img {
+  width: 40%;
+}
+.right-text {
+  margin-right: 0;
+  text-align: center;
+}
+ 
+    
+}
